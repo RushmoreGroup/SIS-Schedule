@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SISSchedule_DTO\SISSchedule_DTO.csproj" />
+    <ProjectReference Include="..\SISSchedule_Entities\SISSchedule_Entities.csproj" />
+    <ProjectReference Include="..\SISSchedule_Repository\SISSchedule_Repository.csproj" />
+  </ItemGroup>
+
+</Project>

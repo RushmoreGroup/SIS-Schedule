@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SISSchedule_API</name>
+    </assembly>
+    <members>
+        <member name="T:SISSchedule_API.Controllers.ProviderController">
+            <summary>
+            Provider details
+            </summary>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.#ctor(SISSchedule_Repository.IProviderDataRepository{SISSchedule_Entities.Providers,SISSchedule_DTO.ProviderDTO},Microsoft.Extensions.Logging.ILogger{SISSchedule_API.Controllers.ProviderController})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="dataRepository"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.Providers">
+            <summary>
+            Fetch all Providers details 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.Provider(System.Int32)">
+            <summary>
+            Get the Provider details for given provider id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.Post(SISSchedule_Entities.Providers)">
+            <summary>
+            Create the provider details
+            </summary>
+            <param name="projects"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.Put(System.Int32,SISSchedule_DTO.ProviderDTO)">
+            <summary>
+            Update the provider given record id
+            </summary>
+            <param name="id"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SISSchedule_API.Controllers.ProviderController.Delete(System.Int32)">
+            <summary>
+            Delete the Provider given provider id
+            </summary>
+            <param name="id"></param>       
+            <returns></returns>      
+        </member>
+        <member name="T:SISSchedule_API.Startup">
+            <summary>
+            Startup class - SISSchedule Report
+            </summary>
+        </member>
+    </members>
+</doc>
