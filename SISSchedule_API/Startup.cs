@@ -34,7 +34,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 namespace SISSchedule_API
 {
     /// <summary>
-    /// Startup class - SISSchedule Report
+    /// Startup class - SISSchedule
     /// </summary>
     public class Startup
     {
